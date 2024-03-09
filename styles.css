@@ -1,0 +1,93 @@
+* {
+    font-family: "NUnito", sans-serif;
+}
+
+form {
+    border: 1px solid #f4f7f8;
+    background-color: #f4f7f8;
+    max-width: 580px;
+    margin: 10px auto;
+    padding: 10px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin:  10px 0 30px 0;
+}
+
+.form {
+    --background: #e8eeef;
+    --font-size: 1.4em;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+span {
+    display: flex;
+    font-size: var(--font-size);
+    margin-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.info, .birth, .country {
+    background-color: var(--background);
+    height: auto;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin: 0;
+    border: 0;
+    font-size: 16px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+}
+
+.info:not(:last-child) {
+    margin-bottom: 30px;
+}
+.info:last-child {
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.basic span::before,
+.other span::before {
+    content: "";
+    background-color: #007a5a;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.birth, .country {
+    color: rgba(0,0,0,0.4);
+    margin-bottom: 30px;
+}
+
+.gender {
+    margin-bottom: 10px;
+}
+.genderl {
+    margin-bottom: 30px;
+}
+
+.country {
+    margin-bottom: 30px;
+}
+
+.sign {
+    width: 100%;
+    background-color: #4bc970;
+    padding: 10px;
+    
+    
+}

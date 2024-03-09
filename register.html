@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Register Page</title>
+</head>
+<body>
+    <form>
+        <h1>Sign Up</h1>
+
+        <div class="form">
+        <ul>
+            <li class="basic"> 
+                <span>Your basic info</span> <br />
+
+                First Name: <br />
+                <input type="text" id="firstN" class="info"  /><br />
+
+                Last Name: <br />
+                <input type="text" id="lastN" class="info" /><br >
+
+                Email: <br />
+                <input type="text" id="email" class="info" /><br />
+
+                Username: <br />
+                <input type="text" id="userN" class="info" /><br />
+
+                Password: <br />
+                <input type="password" id="pass" class="info" />
+            </li>
+
+            <li class="other">
+                <span>Other details</span>
+                Birth Date: <br />
+                <input type="date" class="birth" /><br />
+
+                Gender: <br />
+                <input type = "radio" value = "male" name="gender" class="gender" />Male <br />
+                <input type="radio" value="female" name="gender" class="gender" />Female <br />
+                <input type="radio" value="other" name="gender" class="genderl"/>Other <br />
+                
+                Country <br />
+                <select name="country" class="country">
+                    <option value="China" selected>China</option>
+                    <option value="UK">United Kindom</option>
+                    <option value="USA">United State</option>
+                    <option value="Turkey">Turkey</option>
+                  </select>
+            </li>
+    </ul>
+    </div>
+    <input type="checkbox" /> I'm accepting Terms and Conditions <br />
+    <button type="submit" class="sign">Sign Up</button>
+    </form>
+</body>
+</html>
